@@ -1,0 +1,83 @@
+body{
+	background: #f0f0f0;
+}
+.full{
+	height: 5rem;
+}
+.head{
+	position: fixed;
+	width: 100%;
+	background: #29BDE0;
+	padding: 1rem;
+}
+.box{
+	padding: 1rem;
+}
+.before{
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background: #FFFFFF;
+	color: #A5A5A5;
+	font-size: 150%;
+	text-align: center;
+	border: 0.1rem solid #C6C8CA;
+}
+.game{
+	border: 0.1rem solid #C6C8CA;
+}
+.before img{
+	position: absolute;
+	right: 2rem;
+}
+a:hover{
+	text-decoration: none;
+}
+.game{
+	text-align: center;
+	background: #FFFFFF;
+}
+h2{
+	color: #FBB435;
+	padding: 1rem;
+}
+hr{
+	background: #FBB435;
+	height: 0.1rem;
+	border: none;
+}
+.version{
+	color: #FFFFFF;
+	background: #29BDE0;
+	font-size: 170%;
+	padding: 1rem;
+	margin: 2rem;
+}
+.middle{
+	padding: 1rem;
+}
+.circle{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	margin: 0.1rem;
+}
+.circle1{
+	
+	background: #29BDE0;
+}
+.circle2{
+	background: #F0F0F0;
+	
+}
+.circle3{
+	background: #F0F0F0;
+}
+.circle4{
+	background: #F0F0F0;
+}
+.page{
+	position: fixed;
+	right: 1.1rem;
+	top: 30.5rem;
+	
+}
