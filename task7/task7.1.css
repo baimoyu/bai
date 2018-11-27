@@ -1,0 +1,145 @@
+body{
+	background-color: #29bde0;
+}
+.head{
+	position: fixed;
+	width: 100%;
+	background-color: #29BDE0;
+	color: #FFFFFF;
+	height: 5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	padding-top: 1rem;
+	z-index: 1;
+}
+.type{
+	float: left;
+	margin-left: 1rem;
+	margin-top: -0.7rem;
+}
+.no{
+	float: right;
+	margin-top: -0.7rem;
+
+}
+.full{
+	padding-top: 5rem;
+}
+.music{
+	height: 4.5rem;
+	background-color: rgba(255,255,255,0.7);
+	padding-top: 0.2rem;
+	padding-bottom: 1rem;
+    text-indent: 2rem;
+	font-size: 1.5rem;
+}
+
+img{
+	float: right;
+	margin-right: 0.8rem;
+	width: 3.25rem;
+	height: 3.25rem;	
+}
+.angle{
+	margin-top: 0;
+    margin-left: 5rem;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid;
+    color: rgba(255,255,255,0.7);
+    float: left;
+}
+.click{
+	padding-top: 1rem;
+	padding-left: 5rem;
+	color: #FFFFFF;
+	font-size: 1.3rem;
+}
+
+.box{
+	padding: 0.5rem;
+	margin-top: 1rem;
+    background-color: #FFFFFF;
+}
+
+.bigbox button{
+	display: none;
+}
+.bigbox:hover button{
+	display: block;
+}
+.small{
+	padding: 20%;
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;
+	background-color: #fbb435;
+}
+
+.min{
+	padding: 0% 20% 0% 20%;
+	position: relative;
+	background-color: #83B09A;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+.bigbox button{
+	margin-top: 1rem;
+	border: none;
+	outline: none;
+	width: 1.875rem;
+	height: 1.875rem;
+}
+
+.choose1{
+	background-image: url(images/5.png);
+}
+.choose2{
+	background-image: url(images/4.png);
+}
+.choose3{
+	background-image: url(images/6.png);
+}
+.choose4{
+	background-image: url(images/7.png);
+}
+
+.foot{
+	position: fixed;
+	bottom: 0;
+	padding-top: 3rem;
+	height: 7rem;
+	width: 100%;
+	background: #29BDE0;
+}
+.footer{
+	height: 5rem;
+}
+.die{
+	margin: 50% 0% 5% 15%;
+	padding: 2% 30% 2% 30%;
+	background:#fbb435 ;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 425px) {
+		html{
+			font-size: 60%;
+		}
+		img{
+			width: 40px;
+			height: 40px;
+		}
+		button{
+			background-position: center;
+		}
+}
