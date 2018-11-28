@@ -94,6 +94,7 @@ body{
 .min{
 	width: 27vw;
 	height: 5vw;
+	margin-right: 0.39vw;
 	background-color: #83B09A;
 	text-align: center;
 	line-height: 5vw;

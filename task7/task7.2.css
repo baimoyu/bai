@@ -16,6 +16,8 @@
 	float: left;
 	margin-left: 1rem;
 	background-image: url(images/task5-3_06.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 3.25rem;
 	height: 2.75rem;
 }
@@ -23,6 +25,8 @@
 		float: right;
 	margin-right: 1rem;
 	background-image: url(images/task5-3_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 2.5rem;
 	height: 2.875rem;
 	border: none;
@@ -85,14 +89,16 @@ a:hover{
 	text-decoration: none;
 	color: #FFFFFF;
 }
+.row{
+	margin: 0;
+}
 .again{
 	background-color: #F66F6F;
 	color: #FFFFFF;
 	font-size: 1.5rem;
-	background-size: 150%;
 	border-radius: 0.5rem;
 	display: block;
-	white-space: nowrap;
+
 }
 
 .put{
@@ -102,7 +108,6 @@ a:hover{
 	width: 100%;
 	border-radius: 0.5rem;
 	display: block;
-	white-space: nowrap;
 }
 .fix{
 	height: 5rem;
