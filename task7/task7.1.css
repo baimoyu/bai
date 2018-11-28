@@ -1,0 +1,174 @@
+
+body{
+	background-color: #29bde0;
+}
+.head{
+	position: fixed;
+	width: 100%;
+	background-color: #29BDE0;
+	color: #FFFFFF;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 2rem;
+	z-index: 1;
+}
+.type{
+	float: left;
+	margin-left: 1rem;
+}
+.head img{
+	width: 2.75rem;
+	height: 2.75rem;
+}
+.no{
+	float: right;
+	margin-right: 1rem;
+
+
+}
+.full{
+	padding-top: 5rem;
+}
+.music{
+	height: 4.5rem;
+	background-color: rgba(255,255,255,0.7);
+    text-indent: 2rem;
+	font-size: 1rem;
+	line-height: 4.5rem;
+}
+.music img{
+	float: right;
+	margin-right: 1rem;
+	margin-top: 0.625rem;
+	width: 3.25rem;
+	height: 3.25rem;
+
+}
+.angle{
+	margin-top: 0;
+    margin-left: 5rem;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid;
+    color: rgba(255,255,255,0.7);
+    float: left;
+}
+.click{
+	padding-top: 1rem;
+	padding-left: 5rem;
+	color: #FFFFFF;
+	font-size: 1rem;
+}
+.container-fluid{
+	margin-right: 2rem;
+}
+
+.col-4{
+	height: 40vw;
+	padding: 0;
+}
+.box{
+	width: 29vw;
+	height: 29vw;
+    background-color: #FFFFFF;
+    padding: 1vw;
+}
+
+.col-4 a{
+	display: none;
+}
+.col-4:hover a{
+	display: block;
+}
+.small{
+	width: 27vw;
+	height: 22vw;
+	background-color: #fbb435;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.min{
+	width: 27vw;
+	height: 5vw;
+	background-color: #83B09A;
+	text-align: center;
+	line-height: 5vw;
+	font-size: 1.25rem;
+	color: #FFFFFF;
+}
+.col-4 img{
+	margin-top: 1vw;
+	border: none;
+	outline: none;
+	width: 5vw;
+	height: 5vw;
+}
+.foot{
+	position: fixed;
+	bottom: 0;
+	padding-top: 3rem;
+	height: 7rem;
+	width: 100%;
+	background: #29BDE0;
+}
+.footer{
+	height: 5rem;
+}
+.die{
+	margin: 50% 0% 5% 15%;
+	padding: 2% 30% 2% 30%;
+	background:#fbb435 ;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*@media screen and (max-width: 425px) {
+	html{
+		font-size: 80%;
+	}
+	.col{
+		margin-left: -0.5rem;
+	}
+	.box{
+	width: 27vw;
+	height: 27vw;
+    background-color: #FFFFFF;
+    padding: 1vw;
+	}
+	.small{
+	width: 25vw;
+	height: 20vw;
+	background-color: #fbb435;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.min{
+	width: 25vw;
+	height: 5vw;
+	background-color: #83B09A;
+	text-align: center;
+	line-height: 5vw;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+	.col-4{
+		padding-left: 3vw;
+		padding-right: 0;
+	}
+	button{
+		background-position: center;
+	}
+}*/
