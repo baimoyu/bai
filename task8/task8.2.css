@@ -1,0 +1,176 @@
+.head{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #29b078;
+}
+.container{
+	padding: 0;
+}
+.photos img{
+	width: 1rem;
+	height: 1rem;
+	margin-right: 1rem;
+}
+.ear{
+	background: #29B078;
+}
+.face{
+	height: 3rem;
+	line-height: 3rem;
+	background: #29B078;
+	text-align: center;
+}
+.face li{
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+.face a{
+	color: #FFFFFF;
+}
+.face a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.face li:hover .line{
+	margin-top: -0.2rem;
+	background: #FFFFFF;
+	height: 0.2rem;
+	width: auto;
+}
+.photo img{
+	width: 100%;
+	height: 100%;
+}
+.box{
+	background: #FAFAFA;
+}
+.together{
+	padding-top: 2rem;
+	margin-bottom: 1rem;
+}
+.together p{
+	display: inline-block;
+}
+.together a:hover{
+	text-decoration: none;
+	color: #29B078;
+}
+.green{
+	color: #29B078;
+}
+.left{
+	text-align: center;
+	background: #FFFFFF;
+	height: 40rem;
+}
+h6{
+	line-height: 2rem;
+	font-size: 1.1rem;
+}
+.left hr{
+	border: none;
+	height: 0.1rem;
+	margin-left: -1rem;
+	margin-right: -1rem;
+	margin-top: 0rem;
+	padding-left: 0;
+	background: #ADB5BD;
+}
+.circle{
+	width: 0.7rem;
+	height: 0.7rem;
+	border: 0.05rem solid #DC3545;
+}
+.point a{
+	font-size: 0.8rem;
+	text-indent: 0.5rem;
+}
+.point{
+	margin-bottom: 1rem;
+}
+.point:hover .circle{
+	background: #FD7E14;
+}
+.point:hover .green{
+	text-decoration: none;
+	color: #FD7E14;
+}
+.center{
+	margin-left: -1.5rem;
+	margin-right: -1.5rem;
+}
+.right{
+	background: #FFFFFF;
+	padding: 2rem;
+	color: #ADB5BD;
+	margin-bottom: 10rem;
+	padding-bottom: 5rem;
+}
+.right img{
+	margin-right: 1rem;
+	width: 124px;
+	height: 24px;
+}
+.right hr{
+	border: none;
+	height: 0.1rem;
+	margin-left: -2rem;
+	margin-right: -2rem;
+	margin-top: 2rem;
+	padding-left: 0;
+	background: #ADB5BD;
+}
+.right p{
+	text-indent: 2rem;
+}
+
+
+
+
+.foot{
+	background: #29B078;
+	color: #FFFFFF;
+}
+.foot a{
+	color: #FFFFFF;
+}
+.foot a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+}
+.hr{
+	margin-top: 2rem;
+	margin-bottom: 0rem;
+	border: none;
+	height: 0.1rem;
+	background: #71DD8A;
+	
+}	
+.bottom{
+	text-align: center;
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 0.5rem;
+}
+
+
+@media screen and (max-width: 426px) {
+	.face{
+		height: 12rem;\
+		line-height: 12rem;
+		margin-left: -33%;
+	}
+	.carousel-caption{
+	padding-bottom: 4%;
+	}
+	h1{font-size: 1rem;}
+	h2{font-size: 0.5rem;}
+	h4{font-size: 0.8rem;}
+	.text-left{
+		justify-content: center;
+		display: flex;
+	}
+}
