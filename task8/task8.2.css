@@ -14,6 +14,9 @@
 .ear{
 	background: #29B078;
 }
+.only{
+	display: none;
+}
 .face{
 	height: 3rem;
 	line-height: 3rem;
@@ -157,7 +160,54 @@ h6{
 }
 
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
+		.ear{
+		display: none;
+	}
+	.only{
+		display: block;
+	}
+	.small{
+		background: #29B078;
+	}
+	.deep{
+
+		background: #71DD8A;
+		padding: 0.5rem;
+		margin-top: 0.3rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0.3rem;
+		border-radius: 0.2rem;
+	}
+	.deep:hover{
+		background: #1C7430;
+	}
+	.down{
+		color: #FFFFFF;
+		text-align: center;
+		height: 0;
+		overflow: hidden;
+		transition: height 0.5s;
+	}
+	.only:hover .down{
+	height: 10rem;
+	}
+	.down a{
+	color: #FFFFFF;
+	}
+	.down a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+	.light{
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		width: 100%;
+		background: rgb(41,176,120);
+	}
+	.light:hover{
+		background: rgba(41,176,120,0.8);
+	}
 	.face{
 		height: 12rem;\
 		line-height: 12rem;
