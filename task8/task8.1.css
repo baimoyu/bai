@@ -114,24 +114,15 @@ h5{
 	padding: 1rem;
 }
 
-.around{
-	width: 1rem;
-	height: 1rem;
-	border-radius: 1rem;
-	margin: 0.1rem;
-	background: #FFFFFF;
-}
-.around:hover{
-	background: #29B078;
-}
 
 .good img{
 	width: 200px;
 	height: 300px;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 .good{
 	text-align: center;
-	display: none;
 }
 .good ul{
 	margin-bottom: -3rem;
@@ -262,14 +253,6 @@ h5{
 	}
 }
 
-@media screen and (max-width: 1023px) {
-	.good{
-		display: block;
-	}
-	.picture{
-		display: none;
-	}
-}
 @media screen and (max-width: 991px) {
 	.zuo{
 		display: flex;
