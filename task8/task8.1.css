@@ -133,7 +133,9 @@ h5{
 	text-align: center;
 	display: none;
 }
-
+.good ul{
+	margin-bottom: -3rem;
+}
 
 
 
