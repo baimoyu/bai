@@ -15,7 +15,7 @@
 .ear{
 	background: #29B078;
 }
-.only{
+.del{
 	display: none;
 }
 .face{
@@ -233,49 +233,32 @@ tbody{
 		.ear{
 		display: none;
 	}
-	.only{
+	.del{
 		display: block;
 	}
-	.small{
+	.only{
 		background: #29B078;
+		margin: 0;
 	}
-	.deep{
-
-		background: #71DD8A;
+	.btn{
+		background: #34CE57;
+		border: none;
+		margin: 0.5rem;
 		padding: 0.5rem;
-		margin-top: 0.3rem;
-		margin-right: 0.5rem;
-		margin-bottom: 0.5rem;
-		border-radius: 0.2rem;
 	}
-	.deep:hover{
+	.btn:hover{
 		background: #1C7430;
 	}
-	.down{
-		color: #FFFFFF;
+	.collapse{
+		background: #29B078;
+	}
+	.collapse a{
 		text-align: center;
-		height: 0;
-		overflow: hidden;
-		transition: height 0.5s;
+		color: #FFFFFF;
 	}
-	.only:hover .down{
-	height: 10rem;
-	}
-	.down a{
-	color: #FFFFFF;
-	}
-	.down a:hover{
-	text-decoration: none;
-	color: #FFFFFF;
-	}
-	.light{
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		width: 100%;
-		background: rgb(41,176,120);
-	}
-	.light:hover{
-		background: rgba(41,176,120,0.8);
+	.collapse a:hover{
+		color: #FFFFFF;
+		background: rgba(255,255,255,0.15);
 	}
 	.face{
 		height: 16.8rem;\
@@ -290,5 +273,11 @@ tbody{
 	.text-left{
 		justify-content: center;
 		display: flex;
+	}
+}
+@media screen and (max-width: 991px) {
+	.zuo{
+		display: flex;
+		justify-content: flex-start;
 	}
 }
