@@ -169,10 +169,12 @@ h6{
 	}
 	.no{
 		display: block;
-	}
-	.only{
 		background: #29B078;
-		margin: 0;
+		text-align: center;
+		
+	}
+	.no a{
+		color: #FFFFFF;
 	}
 	.btn{
 		background: #34CE57;
@@ -185,10 +187,6 @@ h6{
 	}
 	.collapse{
 		background: #29B078;
-	}
-	.collapse a{
-		text-align: center;
-		color: #FFFFFF;
 	}
 	.collapse a:hover{
 		color: #FFFFFF;

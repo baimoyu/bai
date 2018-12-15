@@ -235,10 +235,11 @@ tbody{
 	}
 	.del{
 		display: block;
-	}
-	.only{
 		background: #29B078;
-		margin: 0;
+		text-align: center;
+	}
+	.del a{
+		color: #FFFFFF;
 	}
 	.btn{
 		background: #34CE57;
@@ -248,13 +249,6 @@ tbody{
 	}
 	.btn:hover{
 		background: #1C7430;
-	}
-	.collapse{
-		background: #29B078;
-	}
-	.collapse a{
-		text-align: center;
-		color: #FFFFFF;
 	}
 	.collapse a:hover{
 		color: #FFFFFF;
