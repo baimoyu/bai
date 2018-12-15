@@ -4,8 +4,8 @@
 	margin-bottom: 1rem;
 	color: #29b078;
 }
-.container{
-	padding: 0;
+.row{
+	overflow: hidden;
 }
 .photos img{
 	width: 1rem;
@@ -86,6 +86,7 @@ hr{
 }
 .direction p{
 	color: #C6C8CA;
+	white-space: nowrap;
 }
 .direction ul{
 	margin-left: -1rem;
@@ -106,7 +107,8 @@ h6{
 .graph{
 	position: relative;
 	margin-bottom: 1rem;
-	width: 337px;
+	max-width: 337px;
+	height: auto;
 }
 .graph img{
 	width: 153px;
@@ -115,7 +117,7 @@ h6{
 table{
 	background-color: #FFFFFF;
 	font-size: 0.5rem;
-	width: 337px;
+
 }
 th{
 	padding: 0.5rem;
@@ -165,10 +167,9 @@ span{
 }
 
 .click{
-	width: 0;
-	height: 0;
 	overflow: hidden;
-
+	height: 0;
+	width: 0;
 }
 .click h6{
 	text-align: center;
@@ -187,10 +188,7 @@ span{
 	right: 0;
 	transition: width 0.5s;
 	width: 337px;
-	height: auto;
-}
-tbody{
-	width: 337px;
+	height: 426px;
 }
 
 
@@ -228,7 +226,7 @@ tbody{
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
 		.ear{
 		display: none;
@@ -268,10 +266,30 @@ tbody{
 		justify-content: center;
 		display: flex;
 	}
-}
-@media screen and (max-width: 991px) {
 	.zuo{
 		display: flex;
 		justify-content: flex-start;
 	}
+}
+@media screen and (max-width: 374px) {
+	table{
+		width: 95%;
+	}
+	tr{
+		width: 95%;
+	}
+	.col{
+		padding: 0;
+	}
+	.graph:hover .click{
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	overflow: hidden;
+	padding: 3rem 2rem 2rem 2rem;
+	color: #FFFFFF;
+	right: 0;
+	transition: width 0.5s;
+	width: 337px;
+	height: 444px;
+}
 }

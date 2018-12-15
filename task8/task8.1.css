@@ -123,8 +123,12 @@ h5{
 .good ul{
 	margin-bottom: -3rem;
 }
-
-
+.carousel-item img{
+	margin-bottom: 1rem;
+}
+.good li:hover{
+	background: #29B078;
+}
 
 .arm{
 	background: #FFFFFF;
