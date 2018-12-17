@@ -126,6 +126,9 @@ h5{
 .carousel-item img{
 	margin-bottom: 1rem;
 }
+.good li{
+	background: #FFFFFF;
+}
 .good li:hover{
 	background: #29B078;
 }

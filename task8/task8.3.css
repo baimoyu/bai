@@ -105,94 +105,115 @@ h6{
 	margin-bottom: 2rem;
 }
 .graph{
-	position: relative;
+	font-size: 0.5rem;
+	width: 100%;
+	background: #FFFFFF;
 	margin-bottom: 1rem;
-	max-width: 337px;
-	height: auto;
 }
-.graph img{
+.one{
+	border: 1px solid #ADB5BD;
+	padding: 0.5rem;
+}
+.one img{
+	margin-right: 1rem;
 	width: 153px;
 	height: 154px;
 }
-table{
-	background-color: #FFFFFF;
-	font-size: 0.5rem;
-
+.one p{
+	font-weight: bolder;
 }
-th{
-	padding: 0.5rem;
-	background-color: #FFFFFF;
-}
-td{
-	padding: 0.5rem;
-	background-color: #FFFFFF;
-}
-.star img{
-	margin-top: -0.2rem;
-	margin-left: 0.5rem;
-	width: 16px;
-	height: 15px;
-}
-span{
-	font-weight: 500;
-}
-.right{
-	border-right-color: #FFFFFF;
-}
-
-.delete{
-	text-align: center;
-	color: #C6C8CA;
-	border-bottom: none;
+.door{
+	width: 50%;
+	border: 1px solid #ADB5BD;
 	border-top: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
 }
-.change{
-	border-bottom: none;
-}
-.no{
+.easy{
+	width: 50%;
+	border: 1px solid #ADB5BD;
+	border-left: none;
 	border-top: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
 }
-.word{
-	color: #CED4DA;
-}
-.red{
-	color: #DC3545;
+.two img{
+	margin-top: -0.3rem;
 	margin-left: 0.5rem;
 }
-.too-red{
+.week{
+	width: 50%;
+	border: 1px solid #ADB5BD;
+	border-top: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
+}
+.none{
+	width: 50%;
+	border: 1px solid #ADB5BD;
+	border-left: none;
+	border-top: none;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
+}
+.three span{
+	margin-left: 0.5rem;
 	color: #DC3545;
 }
-.gray{
-	color: #CED4DA;
+.money{
+	width: 40%;
+	border: 1px solid #ADB5BD;
+	border-top: none;
 }
-
+.year{
+	width: 60%;
+}
+.first{
+	border: 1px solid #ADB5BD;
+	border-left: none;
+	border-top: none;
+	padding: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.five{
+	border: 1px solid #ADB5BD;
+	border-top: none;
+	padding: 0.5rem;
+}
+.five span{
+	color: #DC3545;
+}
+.door,.easy,.week,.none,.money,.six{
+	color: #ADB5BD;
+}
 .click{
-	overflow: hidden;
-	height: 0;
+	position: absolute;
+	top: 0;
+	right: 1rem;
+	background: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	font-size: 1rem;
 	width: 0;
+	height: 0;
+	overflow: hidden;
+	transition: 1s width ease;
 }
 .click h6{
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 .click p{
-	text-indent: 1rem;
+	margin: 2rem;
 }
-
 .graph:hover .click{
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	overflow: hidden;
-	padding: 3rem 2rem 2rem 2rem;
-	color: #FFFFFF;
-	right: 0;
-	transition: width 0.5s;
-	width: 337px;
-	height: 426px;
+	height: 96.5%;
+	width: 100%;
 }
-
-
-
 
 
 
@@ -272,24 +293,39 @@ span{
 	}
 }
 @media screen and (max-width: 374px) {
-	table{
-		width: 95%;
+	.one img{
+		width: 100px;
+		height: 100px;
 	}
-	tr{
-		width: 95%;
-	}
-	.col{
-		padding: 0;
+	.click{
+		font-size: 0.9rem;
 	}
 	.graph:hover .click{
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	overflow: hidden;
-	padding: 3rem 2rem 2rem 2rem;
-	color: #FFFFFF;
-	right: 0;
-	transition: width 0.5s;
-	width: 337px;
-	height: 444px;
+	width: 91%;
+}
+}
+@media screen and (min-width: 1200px) {
+.graph:hover .click{
+	width: 92%;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.graph:hover .click{
+	width: 93.5%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.graph:hover .click{
+	width: 91%;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.graph:hover .click{
+	width: 94.5%;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+	.graph:hover .click{
+	width: 94%;
 }
 }
