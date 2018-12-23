@@ -1,0 +1,235 @@
+.head{
+	background: #1D7AD9;
+	color: #FFFFFF;
+}
+.head button{
+	background: #1D7AD9;
+	color: #FFFFFF;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.head button:hover{
+	background: #FFFFFF;
+	color: #000000;
+}
+.face{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.no{
+	display: none;
+}
+.face button{
+	background: #FFFFFF;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	outline: none;
+}
+.face button:hover{
+	background: #1D7AD9;
+	color: #FFFFFF;
+}
+.process .col-3{
+	padding: 0;
+}
+.one{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.line{
+	background: #CCCCCC;
+	height: 0.3rem;
+	width: auto;
+}
+.rounded-circle{
+	margin-top: -0.5rem;
+	height: 1.5rem;
+	width: 1.5rem;
+	background: #CCCCCC;
+	text-align: center;
+	line-height: 1.5rem;
+	color: #FFFFFF;
+}
+.word{
+	margin-top: 1rem;
+	color: #CCCCCC;
+}
+.one:hover .line{
+	background: #FF7F02;
+}
+.one:hover .rounded-circle{
+	background: #FF7F02;
+}
+.one:hover .word{
+	color: #FF7F02;
+}
+.you{
+	width: 0.25rem;
+	height: 1.3rem;
+	background: #1D7AD9;
+	border-radius: 0.5rem;
+	margin-left: -15px;
+	margin-right: 0.2rem;
+}
+.choose{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: #1D7AD9;
+}
+.choose img{
+	margin-right: 0.5rem;
+}
+.only{
+	background: #FBFCFF;
+	border: 2px solid #E7E7E7;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.radio {
+	margin-right: 2rem;
+}
+.biao{
+	width: 5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+.both{
+	padding-bottom: 0.5rem;
+	padding-top: 0.05rem;
+}
+.next{
+	background: #FFFFFF;
+	border: 2px solid #E7E7E7;
+	border-top: none;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.next button{
+	background: #DC3545;
+	color: #FFFFFF;
+	padding: 0.5rem 3rem 0.5rem 3rem;
+	border: none;
+	border-radius: 0.3rem;
+	outline: none;
+}
+label{
+	white-space: nowrap;
+}
+select{
+	outline: none;
+}
+select::-ms-expand{
+	display: none;
+}
+.form_select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../img/select.png) no-repeat scroll right center transparent;
+	width: 6.5rem;
+	height: 2rem;
+}
+input:checked{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../img/INPUT.png) no-repeat scroll center;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+label input{
+	width: 1rem;
+	height: 1rem;
+	vertical-align: middle;
+}
+label{
+	vertical-align: middle;
+}
+
+.radio{
+	padding-left: 0;
+	padding-right: 0;
+}
+input{
+	border-color: #F3F3F3;
+	outline: none;
+}
+.open{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.xiao{
+	display: none;
+}
+
+
+.foot{
+	background: #F3F3F3;
+	color: #818182;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.foot a{
+	color: #818182;
+}
+.foot a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+}
+.foot img{
+	margin-left: 1rem;
+}
+.hr{
+	margin-top: 2rem;
+	margin-bottom: 0rem;
+	border: none;
+	height: 0.1rem;
+	background: #71DD8A;
+	
+}	
+.bottom{
+	text-align: center;
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 0.5rem;
+}
+.blue{
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 1023px) {
+	.xiao{
+		display: block;
+	}
+	.da{
+		display: none;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.head{
+		font-size: 80%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.no{
+		display: block;
+		font-size: 80%;
+	}
+	.yes{
+		display: none;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.zuo{
+		display: flex;
+		justify-content: flex-start;
+	}
+}
