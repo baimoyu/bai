@@ -1,0 +1,116 @@
+.head{
+	width: 100%;
+	background-color: #29BDE0;
+}
+.face{
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	z-index: 1;
+}
+.home{
+
+	margin-left: 1rem;
+	background-image: url(../img/task5-3_06.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 3.25rem;
+	height: 2.75rem;
+}
+.notes{
+
+	margin-right: 1rem;
+	background-image: url(../img/task5-3_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 2.5rem;
+	height: 2.875rem;
+	border: none;
+	outline: none;
+}
+hr{
+	height: 0.1rem;
+	background-color: #D6D8D9;
+	border: none;
+}
+img{
+	width: 50%;
+}
+.win{
+	margin: auto;
+	display: block;
+}
+p{
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}
+.kill{
+	overflow: hidden;
+}
+.sum{
+	color: #ffc865;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+.text-white{
+	font-size: 1rem;
+	white-space: nowrap;
+	color: #FFFFFF;
+	height: 2rem;
+}
+.day{
+	font-size: 1.2rem;
+}
+.time{
+	float: right;
+	font-size: 1rem;
+	color: #A5A5A5;
+}
+.gray{
+	color: #808080;
+	font-size: 0.9rem;
+}
+.leg{
+	height: 100px;
+	line-height: 40px;
+	margin-bottom: 2rem;
+}
+.foot{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: rgba(41,189,224,0.5);
+	z-index: 1;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.again{
+	background-color: #F66F6F;
+	color: #FFFFFF;
+	width: 40%;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+
+
+}
+
+.put{
+	background-color: #FBB435;
+	color: #FFFFFF;
+	width: 40%;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+}
+.fix{
+	height: 5rem;
+}

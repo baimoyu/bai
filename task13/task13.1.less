@@ -1,0 +1,126 @@
+@background: #29bde0;
+@rem: 1rem;
+@white: #ffffff;
+@no: none;
+
+body{
+    background-color: @background;
+}
+
+.head{
+    position: fixed;
+    width: 100%;
+    background-color: @background;
+    color: @white;
+    height: 4rem;
+    font-size: 2rem;
+    z-index: 1;
+}
+.type{
+    margin-left: @rem;
+}
+.no{
+    margin-right: @rem;
+}
+.full{
+    padding-top: 4rem;
+}
+.music{
+    height: 4.5rem;
+    background-color: rgba(255,255,255,0.7);
+    text-indent: 2rem;
+    font-size: @rem;
+    line-height: 4.5rem;
+}
+.music img{
+    float: right;
+    margin-right: @rem;
+    margin-top: 0.625rem;
+    width: 3.25rem;
+    height: 3.25rem;
+
+}
+.angle{
+    margin-top: 0;
+    margin-left: 5rem;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: @rem solid;
+    color: rgba(255,255,255,0.7);
+    float: left;
+}
+.click{
+    padding-top: @rem;
+    padding-left: 5rem;
+    color: @white;
+    font-size: @rem;
+}
+.container-fluid{
+    margin-right: 2rem;
+}
+
+.pct30{
+    height: 40vw;
+    padding: 0;
+}
+.box{
+    width: 29vw;
+    height: 29vw;
+    background-color: @white;
+    padding-left: 1.5vw;
+
+}
+
+.pct30 a{
+    display: @no;
+}
+.pct30:hover a{
+    display: block;
+}
+.small{
+    width: 27vw;
+    height: 21vw;
+    background-color: #fbb435;
+    font-size: 5vw;
+}
+
+.min{
+    width: 27vw;
+    height: 5vw;
+    background-color: #83B09A;
+    text-align: center;
+    line-height: 5vw;
+    font-size: 4vw;
+    color: @white;
+}
+.pct30 img{
+    margin-top: 1vw;
+    border: @no;
+    outline: @no;
+    width: 5vw;
+    height: 5vw;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    padding-top: 3rem;
+    height: 4rem;
+    width: 100%;
+    background: @background;
+}
+.footer{
+    height: 6rem;
+}
+.die{
+    margin: 50% 0% 5% 15%;
+    padding: 2% 30% 2% 30%;
+    background:#fbb435 ;
+    color: @white;
+    text-align: center;
+    border: @no;
+    outline: @no;
+}
+a:hover{
+    text-decoration: @no;
+    color: @white;
+}

@@ -1,0 +1,112 @@
+body{
+	background: #f0f0f0;
+}
+#left{
+	display: none;
+}
+#left:checked + aside {
+  left: 0;
+}
+#left:checked ~ .all {
+  margin-left: 40%;
+  margin-right: -40%;
+  transition: 0.3s ease-out;
+}
+aside{
+	position: absolute;
+	padding-top: 1rem;
+	top: 0;
+	bottom: 0;
+	left: -40%;
+	width: 40%;
+	background: #FFFFFF;
+}
+aside hr{
+	height: 0.1rem;
+	background: #F0F0F0;
+	border: none;
+}
+aside a{
+	color: #29BDE0;
+}
+aside a:hover{
+	color: #29BDE0;
+}
+aside img{
+	margin-right: 0.5rem;
+}
+ul{
+	padding-left: 0;
+}
+li{
+	list-style: none;
+	margin-left: 1rem;
+}
+.full{
+	height: 5rem;
+}
+.head{
+	position: fixed;
+	width: 100%;
+	background: #29BDE0;
+	padding: 1rem;
+}
+.box{
+	padding: 1rem;
+}
+.before{
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background: #FFFFFF;
+	color: #A5A5A5;
+	font-size: 1rem;
+	text-align: center;
+	border: 0.1rem solid #C6C8CA;
+}
+.game{
+	border: 0.1rem solid #C6C8CA;
+}
+.before img{
+	float: right;
+	margin-top: -0.5rem;
+}
+a:hover{
+	text-decoration: none;
+}
+.game{
+	text-align: center;
+	background: #FFFFFF;
+}
+h3{
+	color: #FBB435;
+	padding: 0.8rem;
+}
+hr{
+	background: #FBB435;
+	height: 0.1rem;
+	border: none;
+}
+.version{
+	color: #FFFFFF;
+	background: #29BDE0;
+	font-size: 1.5rem;
+	padding: 1rem;
+	margin: 2rem;
+}
+.middle{
+	padding: 1rem;
+}
+.circle{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	margin: 0.1rem;
+	background: #F0F0F0;
+}
+.circle:hover{
+	background: #29bde0;
+}
+.page{
+	float: right;
+	margin-top: -5.75rem;
+}
